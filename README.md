@@ -1,2 +1,2 @@
-# Algorithm_Contest_Source
-一个小菜鸡的算法竞赛的一些学习资料
+# Solved_Problems
+一个小菜鸡AC过的一些题目
