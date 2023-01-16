@@ -1,0 +1,12 @@
+# n,l=list(map(int,input().split(' ')))
+# a=list(map(int,input().split(' ')))
+# a.append(-min(a));a.append(l*2-max(a))
+# a=list(set(a))
+# a.sort()
+# # print(a)
+# print(max([abs(a[i]-a[i+1]) for i in range(len(a)-1)])/2)
+
+i=lambda:map(int,input().split())
+n,l=i()
+a=sorted(i())
+print([r-l for l,r in zip([-a[0]]+a,a+[2*l-a[-1]])])
